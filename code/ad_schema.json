@@ -1,0 +1,26 @@
+{
+    "domain": "abc.com",
+
+    "groups": [
+        {
+            "name": "Employees"
+        }
+    ],
+
+    "users": [
+        {
+            "name": "Fraser Campbell",
+            "password": "Pl@intextpassword213",
+            "groups": [
+                "Employees"
+            ]
+        },
+        {
+            "name": "Jason File",
+            "password": "J@son1234",
+            "groups": [
+                "Employees"
+            ]
+        }
+    ]
+}
