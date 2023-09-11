@@ -10,3 +10,16 @@
 ```shell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
+
+```
+Get-NetIPAddress
+```
+
+# Joinin the Wokstation to the domain
+
+
+
+
+```
+Add-Computer -DomainName abc.com -Credential abc\Administrator -Force -Restart
+```
